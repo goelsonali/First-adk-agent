@@ -7,6 +7,7 @@ from multi_tool_agent.shared_libraries.types import ResourceSearchResponse,json_
 from . import prompt
 from dotenv import load_dotenv
 from multi_tool_agent.tools.search import google_search_grounding
+from multi_tool_agent.shared_libraries.types import ResourceSearchResponse,json_response_config
 
 load_dotenv()
 
@@ -19,5 +20,5 @@ resources_agent = Agent(
     name="resources_agent",
     description="Given an itinerary, this agent keeps up to date and provides relevant travel information to the user before the trip.",
     instruction=prompt.RESOURCE_AGENT_INSTRUCTION,
-    tools=[google_search_grounding],
+    tools=[google_search_grounding]
 )

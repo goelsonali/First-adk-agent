@@ -34,3 +34,9 @@ pip install litellm -q
 GOOGLE_GENAI_USE_VERTEXAI=FALSE
 GOOGLE_API_KEY=PASTE_YOUR_ACTUAL_API_KEY_HERE
 ```
+
+### To run the agents
+- go to root path /multi_tool_agent
+```
+adk web
+```

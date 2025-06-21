@@ -1,4 +1,4 @@
-# First-adk-agent
+# First-multi-agent system with google-adk
 ## Google ADK Agent
 
 ### System Diagram
